@@ -1,5 +1,7 @@
 use pyo3::prelude::*;
 
+mod pauli_exp_val;
+
 /// Returns the sum of two numbers (only Rust)
 fn rust_sum(a: i64, b: i64) -> i64 {
     a + b
